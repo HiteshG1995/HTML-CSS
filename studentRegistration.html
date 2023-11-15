@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration</title>
+        <style>
+            .student:hover{
+                color: blueviolet;
+
+            }
+            label, #name, #password, #phone {
+                color:brown;
+            }
+            .con, .Address{
+                color:brown;
+            }
+            input[type="text"]{
+                color: red;
+                border: 1px solid rgb(142, 70, 70);
+                height: 25px;
+                width: 200px;
+                text-transform: capitalize;
+                border-radius: 20px;
+            }
+            input[type="number"], input[type="email"], input[type="password"]{
+                color: red;
+                border: 1px solid rgb(142, 70, 70);
+                height: 25px;
+                width: 200px;
+                text-transform: capitalize;
+                border-radius: 20px;
+            }
+            
+            button{
+                background-color: chocolate;
+                border-radius: 10px;
+                height: 25px;
+                width: 80px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            textarea:hover{
+                background-color: aquamarine;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <form>
+            <table>
+                <thead><h3 class="student">Student Registration Form</h3></thead>
+                <tbody>
+                <tr>
+                    <td><lable id="name">Full Name</lable></td>
+                    <td>
+                        <input type="text" placeholder="Enter capital letter" required autofocus/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Email address</label> </td>
+                    <td>
+                        <input type="email" placeholder="abc@gmail.com" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><lable id="password">Password</lable></td>
+                    <td>
+                        <input type="password" placeholder="Minimum 8 character required" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><lable id="phone">Phone Number</lable></td>
+                    <td>
+                        <input type="number" placeholder="Maximum 10 digit required"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Photo</label></td>
+                    <td>
+                        <input type="file"/>
+                    </td>
+                </tr>
+                </tr>
+                <tr>
+                    <td><label>Date of Birth</label></td>
+                    <td>
+                        <input type="date" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <input type="radio" name="Gender"/><label>Male</label>
+                        <input type="radio" name="Gender"/><label>Female</label>
+                    </td>
+               </tr>
+                <tr>
+                    <td><label>Tools & Technology</label></td>
+                    <td>
+                        <input type="checkbox"/><label>Angular</label>
+                        <input type="checkbox"/><label>React</label>
+                        <input type="checkbox"/><label>Python</label>
+                        <input type="checkbox"/><label>Java</label>
+                        <input type="checkbox"/><label>AWS</label>
+                        <input type="checkbox"/><label>Azure</label>
+                        <input type="checkbox"/><label>SQL</label>
+                   </td>
+                </tr>
+                <tr>
+                    <td><label>Upload Photo</label></td>
+                    <td>
+                        <input type="file"/>
+                    </td>
+               </tr>
+               <tr>
+                   <td><lable class="con">Country</lable></td>
+                   <td><input type="text" value="Pune" readonly></td>
+               </tr>
+               <tr>
+                   <td><lable class="Address">Present Address</lable></td>
+                   <td><textarea rows="7" cols="30"></textarea></td>
+               </tr>
+               <tr>
+                    <td><button type="submit">Submit</button></td>
+                    <td><button type="reset">Reset</button></td>
+               </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>

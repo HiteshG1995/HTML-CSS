@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Table with colspan</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Full Name</th>
+          <th>Graduation</th>
+          <th>City</th>
+          <th>Skill</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Hitesh</td>
+          <td>Ghadage</td>
+          <td>BE</td>
+          <td>Pune</td>
+          <td>Angular</td>
+        </tr>
+        <tr>
+            <td>Akash</td>
+            <td>Londe</td>
+            <td>BCA</td>
+            <td>Mumbai</td>
+            <td>Java</td>
+        </tr>
+        <tr>
+            <td>Yogesh</td>
+            <td>Pawar</td>
+            <td>BSc</td>
+            <td>Banglore</td>
+            <td>React</td>
+        </tr>
+      </tbody>
+
+      <tbody></tbody>
+    </table>
+
+    <h1>Table with Rowspan</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Graduation</th>
+          <th ">City</th>
+          <th>Skill</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Hitesh</td>
+          <td>Ghadage</td>
+          <td>BE</td>
+          <td rowspan="2">Pune</td>
+          <td>Angular</td>
+        </tr>
+        <tr>
+            <td>Akash</td>
+            <td>Londe</td>
+            <td>BCA</td>
+            <td>Java</td>
+        </tr>
+        <tr>
+            <td>Yogesh</td>
+            <td>Pawar</td>
+            <td>BSc</td>
+            <td>Banglore</td>
+            <td>React</td>
+        </tr>
+      </tbody>
+
+      <tbody></tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Employee Application Form</title>
+  </head>
+  <body>
+    <form>
+        <table>
+      <thead>
+            <h3>Employee Application Form</h3> 
+      </thead>
+      <tbody>
+        <tr>
+          <td><lable>First Name</lable></td>
+          <td>
+            <input type="text" autofocus required maxlength="40" placeholder="Capital letters only"/>
+          </td>
+        </tr>
+        <tr>
+          <td><lable>Email address</lable></td>
+          <td>
+            <input typre="email" required placeholder="abc@gmail.com"/>
+          </td>
+        </tr>
+        <tr>
+          <td><lable>Password</lable></td>
+          <td>
+            <input type="password" required placeholder="Max 8 character required"/>
+          </td>
+        </tr>
+        <tr>
+          <td><lable>Contact Number</lable></td>
+          <td>
+            <input type="number" required maxlength="10" placeholder="Max 10 Digit Required" />
+          </td>
+        </tr>
+        <tr>
+          <td><label>Photo</label></td>
+          <td>
+            <input type="file" />
+          </td>
+        </tr>
+        <tr>
+          <td><lable>Date of Birth</lable></td>
+          <td>
+            <input type="date" required />
+          </td>
+        </tr>
+        <tr>
+            <td><lable>Select Joining Week</lable></td>
+            <td>
+              <input type="week" required />
+            </td>
+        </tr>
+        <tr>
+          <td><label>Gender</label></td>
+          <td>
+            <input type="radio" name="Gender" /><label>Male</label>
+            <input type="radio" name="Gender" /><label>Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td><lable>Marital Status</lable></td>
+          <td>
+            <input type="radio" name="Status" /><label>Yes</label>
+            <input type="radio" name="Status" /><label>No</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label>Known Tools & Technology</label></td>
+          <td>
+            <input type="checkbox" /><label>Angular</label>
+            <input type="checkbox" /><label>React</label>
+            <input type="checkbox" /><label>Python</label>
+            <input type="checkbox" /><label>Java</label>
+            <input type="checkbox" /><label>Jenkin</label>
+            <input type="checkbox" /><label>GIT</label>
+            <input type="checkbox" /><label>Database</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Profile</td>
+          <td>
+            <select>
+              <option>Select</option>
+              <option>UI Developer</option>
+              <option>Backend Developer</option>
+              <option>Full Stack Developer</option>
+              <option>DevOps Engineer</option>
+              <option>Tester</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Country</td>
+          <td>
+            <input type="text" value="India" readonly />
+          </td>
+        </tr>
+        <tr>
+            <td>Present Address</td>
+            <td>
+                <textarea rows="7" cols="50"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td><button type="submit">Submit</td>
+            <td><button type="reset">Reset</td>
+        </tr>
+         </tbody>
+      </table>
+    </form>
+  </body>
+</html>
