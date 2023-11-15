@@ -12,20 +12,47 @@
             
             margin-left: 20px;
         }
-        .link{
-            margin-left: 20px;
-            border: 40px  hidden;
-
+        .link li{
+            display: inline-block;
+            margin: 5px;
+            width: 200px;
+            text-shadow: 2px 2px 4px #e4dddd;
+        }
+        .link li span{
+            color: white;
+        
         }
         .frame{
             margin-left: 20px;
         }
-        .footer{
-            margin-left: 20px;
-            border: 70px  hidden;
+        #font li{
+            display: inline-block;
+            margin-right: 80px;
+            color: white; 
+            text-align: center;
+            border-radius: 40%;
+
+        }
+        #font{
+            color: white; 
+            font-size: 40px;
+            background: #55ACEE;
+
+
+        }
+        #follow{
+            font-size: 20px;
+
+
         }
         h3{
             margin-left: 20px;
+        }
+        body{
+            background-image: url("pexels-pixabay-262662.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+
         }
 
         </style>
@@ -42,24 +69,29 @@
         </header>
         <br>
         <nav>
-            <span class="link"><a href="home.html" target="frame"><b>HOME</b></a></span>
-            <span class="link"><a href="techStack.html" target="frame"><b>TECHNOLOGY STACK</b></a>
-            <span class="link"><a href="education.html" target="frame"><b>EDUCATION</b></a>
-            <span class="link"><a href="internal_css.html" target="frame"><b>PROJECT</b></a>
-            <span class="link"><a href="personal.html" target="frame"><b>PERSONAL</b></a>
-            <span class="link"><a href="Hobbies.html" target="frame"><b>HOBBIES</b></a>
-            <span class="link"><a href="contact.html" target="frame"><b>CONTACT US</b></a>
+            <ul class="link">
+                <li><a href="home.html" target="frame"><span><b>HOME</b></a></li></span>
+                <li><a href="techStack.html" target="frame"><span><b>TECH STACK</b></a></li></span>
+                <li><a href="education.html" target="frame"><span><b>EDUCATION</b></a></li></span>
+                <li><a href="internal_css.html" target="frame"><span><b>PROJECT</b></a></li></span>
+                <li><a href="personal.html" target="frame"><span><b>PERSONAL</b></a></li></span>
+                <li><a href="Hobbies.html" target="frame"><span><b>HOBBIES</b></a></li></span>
+                <li><a href="contact.html" target="frame"><span><b>CONTACT US</b></a></li></span>
+            </ul>
         </nav>
         <br>
         <br>
             <span class="frame"><iframe width="1050px" height="480px" name="frame"> </iframe></span>
         <br>
         <footer>
-            <span class="footer"><h3>Follow Me: <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
-            <span class="footer"><a href="https://www.linkedin.com/login" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></span>
-            <span class="footer"><a href="https://www.instagram.com/accounts/login/" target="_blank" ><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
-            <span class="footer"><a href="https://web.whatsapp.com/" target="_blank" ><i class="fa fa-whatsapp" aria-hidden="true"></i></a></span>
-       </footer>
+            <ul id="font">
+                <li><spna id="follow"><h3>Follow Me:</h3></spna></li>
+                <li><a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></h3></li>
+                <li><a href="https://www.linkedin.com/login" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/accounts/login/" target="_blank" ><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://web.whatsapp.com/" target="_blank" ><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+            </ul>
+        </footer>
         </h3>
     </body>
 </html>
